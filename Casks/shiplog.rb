@@ -3,7 +3,7 @@ cask "shiplog" do
   name "shiplog"
   desc "Export Claude Code sessions to beautiful, shareable HTML chat logs"
   homepage "https://github.com/HabibPro1999/shiplog"
-  version "0.3.0"
+  version "0.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "shiplog" do
   on_macos do
     on_intel do
       url "https://github.com/HabibPro1999/shiplog/releases/download/v#{version}/shiplog_darwin_amd64.tar.gz"
-      sha256 "882114e20440f0f5fa537274f7ac14b966826d8acd29dba2707d605236cf59be"
+      sha256 "9b4831e502c8b075880034c2a95d90862ee60f5467c407aff04f35deca457492"
     end
     on_arm do
       url "https://github.com/HabibPro1999/shiplog/releases/download/v#{version}/shiplog_darwin_arm64.tar.gz"
-      sha256 "a157ce0ce9f28386f72bbbf4c0ee50429ed5ee8b943799ec34da916b337b2e6d"
+      sha256 "ba0fd96d59824f1e4b28c256e35927e87199187355b2f5862f6c02694a2cead5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/HabibPro1999/shiplog/releases/download/v#{version}/shiplog_linux_amd64.tar.gz"
-      sha256 "01b33f8b3c5e9d003fb34c611c798772f88c22861b298f645cc67088ecc72612"
+      sha256 "1d1b1f667e742ffaf0e55ec35fe2331d52338ce8b515b0faec783e46de8da717"
     end
     on_arm do
       url "https://github.com/HabibPro1999/shiplog/releases/download/v#{version}/shiplog_linux_arm64.tar.gz"
-      sha256 "2d36bfe574ae132ac940846af56e913558922fb476ea3419dda121e995f723ef"
+      sha256 "1f5ee770b9f49f0981f6d4079712380856199e0c147fdc62571eb857787f8468"
     end
   end
 
